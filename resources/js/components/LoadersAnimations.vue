@@ -3,6 +3,10 @@
 </template>
 
 <script>
-    export default {
+import lottie from 'lottie-web'
+export default {
+    mounted() {
+        
     }
+}
 </script>

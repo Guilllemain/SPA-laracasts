@@ -17,7 +17,7 @@
                     </router-link>
                 </h1>
             </header>
-            <div class="container px-8">
+            <div class="container px-8 pb-10">
                 <main class="flex">
                     <aside class="w-64 pt-8">
                         <section class="mb-10">
@@ -29,13 +29,19 @@
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/typography">Typography</router-link></li>
                             </ul>
                         </section>
-                        <section>
+                        <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul class="list-reset">
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/loaders-animations">Loaders and Animations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+                            <ul class="list-reset">
+                                <li class="text-sm pb-4"><router-link class="text-black" to="/site-stats">Site stats</router-link></li>
                             </ul>
                         </section>
                     </aside>
